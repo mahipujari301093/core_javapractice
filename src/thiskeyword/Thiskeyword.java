@@ -36,6 +36,7 @@ public class Thiskeyword {  // this keyword is used in non-static methods, const
       then local variable gets priority inside the method/constructor.
       
       To call the instance variable (global variable) inside a non-static method when there is a naming conflict with a local variable, we use the this keyword.
+      this cannot be used in static methods, because static methods don’t belong to any particular object.
 */
 	 
 
