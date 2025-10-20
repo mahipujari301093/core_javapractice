@@ -56,6 +56,9 @@ We can define static methods inside an interface, but they must be complete (wit
 
 You cannot have an incomplete static method — that part is correct.
 
+✅ 7 .
+
+Variables are by default public static final 
 
 ====================================================================
 
@@ -63,6 +66,9 @@ You cannot have an incomplete static method — that part is correct.
 
 An interface is like a rule book for classes.
 It tells what a class must do, but not how to do it.
+
+
+Interface is deal or contract between client and developer 
 	 
 	 
 	 
