@@ -115,20 +115,7 @@ String s = new String("Radhika");
 
  Heap        SCP
  Vishal      Vishal
-             Radhika	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
+             Radhika
  	
  */
 	
