@@ -8,6 +8,14 @@ public class Class_A_StaticMethod {
 		System.out.println("Static method from class A ");
 	}
 	
-	
+
+
+	/*
+
+	If a static method is present in one class, you can call it from another class using:
+
+    ClassName.methodName();
+
+	 */
 
 }

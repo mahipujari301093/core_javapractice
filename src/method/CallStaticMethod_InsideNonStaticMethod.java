@@ -24,16 +24,12 @@ public class CallStaticMethod_InsideNonStaticMethod {
 	
 	public static void main(String[]args)
 	{
-		
-		
-		
+
 		CallStaticMethod_InsideNonStaticMethod nsm = new CallStaticMethod_InsideNonStaticMethod();
 		
 		nsm.NonStaticMethod();
 		
-		
-					
-		
+
 	}
 	
 

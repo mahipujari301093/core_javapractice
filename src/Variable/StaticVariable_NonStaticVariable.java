@@ -23,8 +23,5 @@ public class StaticVariable_NonStaticVariable {
 		
 		
 	}
-	
-	
-	
 
 }

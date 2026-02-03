@@ -1,7 +1,7 @@
 package thiskeyword;
 
 public class Thiskeyword {  // this keyword is used in non-static methods, constructors to
-							// access instance variables
+							// access instance variables ( 👉 Instance = Object)
 
 	int i = 10;             // global or instance variable
 	int k = 50;             // global or instance variable
@@ -30,13 +30,12 @@ public class Thiskeyword {  // this keyword is used in non-static methods, const
 
 	}
 
-/*    When local variable and instance variable (Global variable) names are same, this keyword is used to avoid ambiguity. 
-	  An instance variable is a variable that is declared inside a class but outside any method, constructor, or block
-      If local variable and instance (global) variable have the same name,
-      then local variable gets priority inside the method/constructor.
-      
-      To call the instance variable (global variable) inside a non-static method when there is a naming conflict with a local variable, we use the this keyword.
-      this cannot be used in static methods, because static methods don’t belong to any particular object.
+/*
+When local and instance(Global) variables have the same name, Java gives priority to the local variable.
+To access the instance (global) variable inside a non-static method, we use the this keyword.
+
+👉 Instance = Object
+
 */
 	 
 
