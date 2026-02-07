@@ -3,24 +3,21 @@ package Conditional_Statments;
 public class If_Else2 {
 	
 	public static void main(String[] args) {
-		
-		int a = 100;
-		int b = 200;
-		
-		if(a<=b)
+
+		boolean isEnabled = true;
+
+		if (isEnabled)
 		{
-			
-			System.out.println("Condition true");
+			System.out.println("The feature is enabled.");
+
 		}
-		
-		
+
+
 		else
+
 		{
-			
-			System.out.println("Condition false");
-			
+			System.out.println("The feature is disabled.");
 		}
-		
 		
 		
 		

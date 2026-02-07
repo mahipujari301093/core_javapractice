@@ -14,7 +14,7 @@ public class Practice {
 		System.out.println(b); // local variable b
 
 		System.out.println(this.a); // instance variable a (using this keyword)
-		System.out.println(this.b); // instance variable a (using this keyword)
+		System.out.println(this.b); // instance variable b (using this keyword)
 
 	}
 

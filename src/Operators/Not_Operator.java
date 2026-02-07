@@ -3,24 +3,40 @@ package Operators;
 public class Not_Operator {
 	
 	    public static void main(String[] args) {
-	    	
-	        boolean isRaining = true;
-	        boolean isSunny = false;
 
-	        // Using NOT operator
-	        
-	        System.out.println(!isRaining);  // false, because isRaining is true
-	        System.out.println(!isSunny);    // true, because isSunny is false
 
-	        
-	        
-	        
-	        // !isRaining → flips true to false
+			boolean UserloggedIn = true;  // Change this to false to test the "not logged in" scenario
 
-           // !isSunny → flips false to true
-	        
-	    }
+			if (!UserloggedIn)   // !UserloggedIn means user is NOT logged in
+
+			{
+				System.out.println("The User is not loggedIn Please login");
+			}
+
+			else
+			{
+				System.out.println("Welcome user");
+			}
+
+
+		}
 	}
 
+/*
 
+✅ Real Meaning in Application
+
+If user is NOT logged in → ask to login
+If user already logged in → welcome them
+
+✅ One Line Summary ⭐
+
+👉 !loggedIn means user is NOT logged in.
+
+
+✅ Interview Gold Line 🎯
+
+👉 ! operator is used to check negative scenarios like not logged in, not visible, not enabled.
+
+ */
 

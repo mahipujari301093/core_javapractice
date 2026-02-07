@@ -3,22 +3,40 @@ package Operators;
 public class OR_Operator {
 
 	public static void main(String[] args) {
-		int a = 10;
-		int b = 20;
-		int c = 15;
 
-		
-		
-		System.out.println(a > b || c > a); // false || true → true
-		System.out.println(a > b || c < a); // false || false → false
-		System.out.println(a < b || c < a); // true || false → true
+        // OR operator (||) is used when we want to check if at least one condition is true.
 
-		
-		 // || → true if at least one condition is true.
+		boolean emailValid = false;   // Change this to true to test the "email valid" scenario
+		boolean phoneValid = true;
 
-        // Only false if both conditions are false.
-		
-		
+		if (emailValid || phoneValid)
+		{
+			System.out.println("User can login");
+		}
+
+		else
+		{
+			System.out.println("Provide valid credentials");
+		}
+
+
+
+
 	}
 
 }
+
+/*
+
+✅ What is OR operator (||) ?
+
+👉 If ANY ONE condition is true → result is true.
+👉 It becomes false only when BOTH are false.
+
+✅ Formula 🧠
+true  || true  = true
+true  || false = true
+false || true  = true
+false || false = false
+
+ */

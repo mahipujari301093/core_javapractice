@@ -4,26 +4,22 @@ public class Less_Than {
 	
 	public static void main(String[]args)
 	{
-		
-	int a = 10;
-	int b = 20;
-	int c = 30;
-	
-	System.out.println(a<b);
-	System.out.println(c<a);
-	System.out.println(b<c);
-	System.out.println(b<a);
-	
+
+		int loadTime = 2;    // we can change the value to test the condition
+
+		if (loadTime < 5)
+
+		{
+			System.out.println("Page loaded fast");
+		}
+
+		else
+		{
+			System.out.println("Page is slow");
+		}
+
+
 	}
-	
-	
-/* ✅ Key Point:
-       The less than operator < checks if the left-hand side value is strictly smaller than the right-hand side value.
 
-       If yes → returns true.
-
-       If no → returns false.
-
-*/
 
 }

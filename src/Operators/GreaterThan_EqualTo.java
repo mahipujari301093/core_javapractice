@@ -4,13 +4,23 @@ public class GreaterThan_EqualTo {
 
 	public static void main(String[] args) {
 
-		int a = 10;
-		int b = 20;
-		int c = 20;
 
-		System.out.println(a >= b);     // 10 >= 20 → false
-		System.out.println(b >= a);    // 20 >= 10 → true
-		System.out.println(b >= c);   // 20 >= 20 → true (equal case)
+
+		int age = 5;  // we can change the value to test the condition
+
+		if (age >= 18)
+		{
+			System.out.println("Eligible to vote");
+		}
+
+		else
+		{
+			System.out.println("Not eligible for vote");
+		}
+
+
+
+
 	}
 
 }
