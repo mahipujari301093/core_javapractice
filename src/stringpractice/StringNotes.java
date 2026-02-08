@@ -4,140 +4,93 @@ public class StringNotes {
 	
 	
 /*
- 
-🧩 2️⃣ How == works
 
-When you use:
-
-s1 == s2
-
-
-Java checks:
-
-“Do s1 and s2 point to the same exact memory location?”
-
-If yes → returns true
-If no → returns false
-
-It does NOT check the actual text (characters).
-
- 
- 
-🧠 5️⃣ In short
-Operator	Compares	Used for
-==	Memory address (reference) ->	To check if two references point to the same object
-equals()	Content (text/characters)->	To check if two strings have same value 
- 	
-
-*******************************************************
-
-When you use new keyword, a new object is always created in Heap area.
-String s1 = new String("Java");
-
-
-
-✅ Summary Table
-
-String s1 = "Java";			Created in SCP area
-String s2 = "Java";		    Created in SCP area 
-String s3 = new String("Java");	Creates new object -> Heap area 
-
-**************************************************************************	
- 	
-🧠 2️⃣ What happens when you create Strings
-✅ Case 1: Using string literal
-String s1 = "Java";
-String s2 = "Java";
-
-
-How JVM handles this:
-
-When "Java" is created first time → JVM checks String Constant Pool (SCP).
-
-If not found, JVM creates a new object in SCP.
-
-If already exists, JVM reuses the same object and just points new reference to it.
-
-🧾 Result:
-
-Only one “Java” object in SCP.
-
-Both s1 and s2 point to same memory address.
-
-**********************************************************************************
-
-String s1 = "Java";
-String s2 = "paython"; 
-
-
-👉 JVM checks the SCP again
-
-"paython" is different content, not found in the SCP.
-
-So, it creates another new object for "paython" in the SCP.
-
-📘 Result:
-
-✅ Two String objects are created in the SCP
-(because the contents are different).
-
-✅ So your understanding is correct:
-
-Because "Java" and "paython" have different values,
-the JVM creates two separate String objects in the String Constant Pool
-
-
-*****************************************************************************
-
-String s = new String("Vishal");
-
-✅ Summary:
-
-"Vishal" → 1 object in SCP
-
-new String("Vishal") → 1 object in Heap
-
-Total = 2 objects (most common case)
-
-If "Vishal" was already in SCP, then only 1 new object (Heap) will be created.
-
-
-String s = new String("Vishal");
-
-	Heap       SCP
-	Vishal ->  Vishal
- 	
- 	
 ****************************************************************
 
-String s = new String("Vishal"); 	
-String s = new String("Radhika");
+String s1 = new String("Vishal");   // creates 1 object in SCP and 1 object in Heap
+String s2 = new String("Vishal");   // no new SCP object (because "Vishal" already exists), but creates 1 new Heap object
+String s3 = new String("Radhika");  // creates 1 object in SCP and 1 object in Heap
 
- Heap        SCP
- Vishal      Vishal
-             Radhika
- 	
+
+✅ Line 1
+String s1 = new String("Vishal");
+
+If "Vishal" not in SCP:
+
+1 object will create in SCP area
+1 object will create in Heap area
+
+***************************
+✅ Line 2
+String s2 = new String("Vishal");
+
+SCP already has "Vishal" ✔
+So:
+
+❌ No new SCP object
+✅ New Heap object
+
+
+****************************
+✅ Line 3
+String s3 = new String("Radhika");
+
+If "Radhika" not in SCP:
+
+1 object in SCP
+1 object in Heap
+
+
+**********************************************************************
+✅ Code
+
+String s1 = "Java";     // stored in SCP (String Constant Pool)
+String s2 = "Vishal";   // stored in SCP (String Constant Pool)
+String s3 = "Vishal";   // "Vishal" already exists in SCP → reuse
+
+✅ Step-by-step JVM work
+Line 1
+
+"Java" not in SCP → create.
+
+Line 2
+
+"Vishal" not in SCP → create.
+
+Line 3
+
+"Vishal" already exists in SCP → reuse.
+
+No new object.
+
+*************************************************************************
+✅ Code
+
+String s1 = "Java";  // stored in SCP (String Constant Pool)
+String s2 = new String("Java"); // creates only 1 new object in Heap, "Java" already exists in SCP → reuse
+
+✅ Step-by-step JVM action
+Line 1
+String s1 = "Java";
+"Java" not in SCP → create 1 object in SCP.
+
+Line 2
+String s2 = new String("Java");
+
+Because you used new:
+
+✔ JVM checks SCP → "Java" already exists → reuse
+✔ BUT new forces → create new object in Heap
+
+**************************************************************************
+✅ Code
+
+String s1 = "Java";   // stored in SCP (String Constant Pool)
+String s2 = new String("python"); // creates two objects: one in SCP for "python" and one in Heap for the new String object
+
+
+
  */
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }

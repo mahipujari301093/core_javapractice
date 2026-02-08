@@ -12,10 +12,10 @@ public class Equals {
 		String s4 = "java";
 		
 		
-		System.out.println(s1.equals(s2));
-		System.out.println(s1.equals(s4));
-		System.out.println(s1.equals(s3));
-		System.out.println(s1.equals(s1));
+		System.out.println(s1.equals(s2));  // true - both have same content
+		System.out.println(s1.equals(s4));  // true - both have same content
+		System.out.println(s1.equals(s3));  // false - different content
+		System.out.println(s1.equals(s1));  // true - same reference and content
 			
 	}
 
@@ -27,10 +27,6 @@ public class Equals {
 
 The equals() method is used to compare the contents (values) of two strings.
 It returns true if both strings have the same sequence of characters, otherwise false.
-
-
-
-
 
 
 */

@@ -41,10 +41,7 @@ It does not compare actual text (characters) inside the strings.
 
 So even though s1 and s3 look the same,
 they live in different memory locations, so == gives false.
- 
- 
- 
- 
+
  */
 
 

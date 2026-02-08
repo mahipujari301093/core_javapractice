@@ -11,9 +11,12 @@ public class EqualsIgnoreCaseExample {
 	        String name2 = "vishal";
 	        
 	        // Compare two strings ignoring case
-	        if(name1.equalsIgnoreCase(name2)) {
+	        if(name1.equalsIgnoreCase(name2))
+			{
 	            System.out.println("Both strings are equal (case ignored).");
-	        } else {
+	        }
+			else
+			{
 	            System.out.println("Strings are not equal.");
 	        }
 	    }
