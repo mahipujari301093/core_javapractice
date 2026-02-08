@@ -3,7 +3,9 @@ package casting;
 public class Car extends Vehicle {
 	
 	
-	public void honk() {
+	public void honk()
+
+    {
         System.out.println("Car is honking");
              
     }
@@ -16,10 +18,10 @@ public class Car extends Vehicle {
         v.start();               // works (method from Vehicle)
         // v.honk();             // ❌ not allowed (only parent methods visible)
 
-        // Downcasting: Parent reference → Child reference
+        // DownCasting: Parent reference → Child reference
         Car c = (Car) v;         // explicit cast (Manually did)
-        c.honk();                // ✅ Works now
-        c.start();               // ✅ Works (inherited from Vehicle)
+        c.honk();                // child method now accessible through child reference
+        c.start();               // parent method also accessible through child reference
 		
 	}
 	
@@ -29,10 +31,18 @@ public class Car extends Vehicle {
 
 /*
 
-Car c = (Car) v; → Downcasting: Converts parent reference back to child type.
+Car c = (Car) v; → DownCasting: Converts parent reference back to child type.
 
 Now c.honk(); works because we told Java this parent object is actually a Car.
+👉 explicit cast done manually by the programmer
 
+✅ Memory Formula 🧠
+
+
+Parent ref → Child object  = Upcasting done automatically by Java (implicit)
+Parent ref → back to Child = Downcasting done manually by programmer (explicit)
+
+Why c.start() also works? Because Car inherits from Vehicle.
 
 
 */

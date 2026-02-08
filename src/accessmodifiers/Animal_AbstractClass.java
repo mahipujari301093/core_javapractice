@@ -2,7 +2,9 @@ package accessmodifiers;
 
 public abstract class Animal_AbstractClass {
 
-	public void eat() { // Complete method (Non-Abstract method)
+	public void eat()  // Complete method (Non-Abstract method)
+	{
+
 		System.out.println("Animal is eating");
 	}
 
@@ -48,19 +50,6 @@ Purpose	Provides a template or base structure for subclasses
  🧠 In one line:
 
 Abstract class = a half-defined template that subclasses complete.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  */

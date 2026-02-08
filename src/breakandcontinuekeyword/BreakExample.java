@@ -6,53 +6,40 @@ public class BreakExample {
 	public static void main(String[]args)
 	{
 		
-		for(int i = 1; i<=5;i++)
+		for(int i = 1; i<=10; i++)
 		{
-			
-			if(i==3)
+
+			if(i==5)
 			{
-				break;   // exit the loop when i is 3
-				
+				System.out.println("Number found. Stopping loop.");
+				break;   // This prints numbers from 1 to 4. When i becomes 5, the loop stops.
+
 			}
-			
-			System.out.println("i = "+ i);
-			
+
+			System.out.println("i = " + i);  // This will print numbers from 1 to 4, then exit when i is 5
+
+
 		}
-		
-		
-		System.out.println("Loop ended.");
-		
-		
+
+		  System.out.println("Execution continues after the loop terminates because break only exits the loop, not the entire program.");
 		
 	}
 	
 /*
  
+✅ Fully Corrected Notes Version (Best for interview)
+
 1️⃣ Break Keyword
 
-Definition: The break statement is used to exit a loop immediately, even if the loop condition is still true. 	
- 	
- 	
+Definition: The break statement is used to exit a loop immediately, even if the loop condition is still true.
+
 ✅ Explanation:
-
-When i == 3, break exits the loop immediately.
-
-The loop does not continue to 4 or 5. 	
- 	
+When i == 5, break executes and the loop terminates.
+The loop will not continue to the remaining iterations. but break only stops the loop or switch, not the entire program.
 
 💡 Quick Tip:
-
-break → exits the loop completely
-
-continue → skips current iteration, but loop continues 	
- 	
- 	
+break → exits the loop only not the entire program.
  */
-	
-	
-	
-	
-	
 	
 
 }

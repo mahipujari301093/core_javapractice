@@ -11,3 +11,23 @@ public class Animal {
 	}
 
 }
+
+
+
+/*
+
+Casting
+│
+├── Primitive Casting
+│     ├── Widening (implicit)
+│     └── Narrowing (explicit)
+│
+└── Object Casting (Inheritance)
+      ├── Upcasting
+      └── Downcasting
+
+
+
+
+
+ */

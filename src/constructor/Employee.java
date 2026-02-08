@@ -1,6 +1,8 @@
 package constructor;
 
 public class Employee {
+
+
 //Instance Variables
 	String name;
 	int id;
@@ -8,7 +10,9 @@ public class Employee {
 	String companyname;
 
 	// 🏗️ No-argument constructor
-	public Employee() {
+	public Employee()
+
+	{
 		// Initialize default values
 		name = "Maruti Pujari";
 		id = 10740399;

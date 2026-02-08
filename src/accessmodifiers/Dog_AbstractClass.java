@@ -3,7 +3,8 @@ package accessmodifiers;
 public class Dog_AbstractClass extends Animal_AbstractClass {
 	
 	
-	// // Child class – full information
+	// Child class – full information
+
 	@Override
 	public void sound()    // Subclass completes abstract method
 	{

@@ -2,43 +2,44 @@ package casting;
 
 public class Dog extends Animal {
 
-	public void bark() {
+	public void bark()
+
+	{
 
 		System.out.println("Dog is barking");
 
 	}
 
+
 	public static void main(String[] args) {
 
-		Dog d = new Dog(); // child class object
 
 		Animal a = new Dog(); // Upcasting (Child object → Parent reference)
-		a.eat();
-		// a.bark(); // ❌ Not allowed (only parent methods accessible)
+		a.eat();  //a is the parent reference, so we can only access methods defined in the parent class (Animal).
+
+		// a.bark(); // ❌ Not allowed (only parent methods accessible because ref will decide what you can access)
 
 	}
 
 }
 
 /*
- * 
- * 💡 Definition of Upcasting:
- * 
- * Upcasting means converting a child class object into a parent class
- * reference.
- * 
- * Upcasting is done It is done automatically (implicit casting).
- * 
- 🔹 Explanation:
+
+ ✅ Polished Explanation Version
 
 Dog is a subclass of Animal.
 
 When we write Animal a = new Dog();,
-we are assigning a child object to a parent reference → this is upcasting.
+a child object is assigned to a parent reference. This is called upcasting.
 
-After upcasting, only parent class methods (eat()) can be called.
-Child methods (bark()) are hidden unless you downcast back
-  
-  
- 
+After upcasting, only the methods available in the parent class(Animal) can be accessed using the reference variable.
+
+Child-specific methods cannot be accessed unless we downcast the reference back to the child type.
+
+Upcasting is done automatically by Java (implicit).
+
+✅ Memory Trick 🧠
+Reference decides what you can access.
+Object decides what actually runs.
+
  */

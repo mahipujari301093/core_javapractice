@@ -68,30 +68,29 @@ An interface is like a rule book for classes.
 It tells what a class must do, but not how to do it.
 
 
-Interface is deal or contract between client and developer 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+Interface is deal or contract between client and developer
+
+
+✅ Real-Time Meaning
+👉 The interface acts as a contract of requirements, and the implementing class fulfills that contract.
+Client says:
+I want these features.
+
+Interface = interface contains the features that client wants
+Class = class is the developer who implements the features that client wants
+
+✅ Even Shorter (Powerful)
+
+👉 Interface = what to do
+👉 Class = how to do
+
+
+✅ Polished Version (Easy English)
+
+👉 An interface contains the client requirements that describe what features must be implemented.
+The developer then creates a class that implements the interface and provides the actual behavior for those features.
+
+
 */
 
 }

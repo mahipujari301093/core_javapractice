@@ -5,24 +5,26 @@ public class VariableLevel_AccessModifiers {
 /*
 
    public class VariableAccess {
-    
-    public int publicVar = 10;        // accessible everywhere
-    private int privateVar = 20;      // accessible only inside this class
-    protected int protectedVar = 30;  // accessible in package & subclasses
-    int defaultVar = 40;               // default (package-private), accessible in same package
 
-    
- 	 
-	 
+
+public int a = 10;     // accessible from anywhere (any class, any package)
+
+private int b = 20;    // accessible only within the same class
+
+protected int c = 30;  // accessible within the same package and in subclasses (even in different packages)
+
+int d = 40;            // default (package-private) → accessible only within the same package
+
+
+✅ Easy Memory Trick ⭐
+
+public    → everyone
+private   → only me
+protected → family (package + child)
+default   → same house (package)
+
+
 */
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 
 }

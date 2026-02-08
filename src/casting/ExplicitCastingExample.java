@@ -6,8 +6,8 @@ public class ExplicitCastingExample {
 	public static void main(String[]args)
 	{
 		
-		double a = 10.75;      // double is 8 bytes
-		int b = (int)a;        // manual conversion from double → int
+		double a = 10.75;      // double value (larger type) it can hold decimal values and has a larger range than int.
+		int b = (int)a;        // manual conversion from double → int.
 		
 		System.out.println("Double value: " + a);
         System.out.println("Integer value: " + b);

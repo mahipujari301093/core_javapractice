@@ -12,8 +12,8 @@ public class ContinueExample {
 			if(i==3)
 			{
 				
-				continue;  // skip the iteration when i is 3
-				
+				continue;  // Skip the current iteration when i becomes 3 but the loop continues to the next iteration.
+				           //  So it will print 1, 2, skip 3, and then print 4 and 5.
 			}
 			
 			System.out.println("i = " + i);
@@ -49,8 +49,15 @@ break → exits the loop completely
 
 continue → skips current iteration, but loop continues 
  
- 
- 
+
+🔥 Important Understanding (Golden Point)
+
+With break → loop ends
+With continue → loop jumps to next round
+
+continue = skip but stay inside loop
+break = come outside loop
+
  */
 
 
