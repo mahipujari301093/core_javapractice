@@ -22,9 +22,9 @@ public class ATM {           // "No return & No argument" method
     public static void main(String[] args) 
     
     {
-        ATM atm = new ATM();
-        atm.displayWelcome();
-        atm.checkBalance();
+        ATM a = new ATM();
+        a.displayWelcome();
+        a.checkBalance();
         
     }
 

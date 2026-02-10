@@ -5,11 +5,11 @@ public class No_Return_With_Argument {
 	
 	// ✅ No return, WITH arguments
 	
-	    public void deposit(int amount ,String bankname,String banklocation) 
+	    public void deposit(int amount ,String bankName,String bankLocation)
 	    
 	    {
-	        System.out.println(bankname);
-	        System.out.println(banklocation);
+	        System.out.println(bankName);
+	        System.out.println(bankLocation);
 	        System.out.println("You have successfully deposited ₹" + amount);
 	       
 	    }
@@ -26,7 +26,7 @@ public class No_Return_With_Argument {
 	    {
 	    	No_Return_With_Argument atm = new No_Return_With_Argument();
 	    	
-	    	atm.deposit(3000, "SBI","Dange chowk pune");
+	    	atm.deposit(3000, "SBI","Pune");
 	    	atm.TotalBalance(10000, "Thanks for visiting SBI bank");
 
 	        

@@ -5,7 +5,7 @@ public class Return_WithoutArgument {
 	// Method with return type but no arguments
 
 	  
-	   public int getBalance() 
+	   public int getBalance()
 	  
 	    {
 		   int balance = 5000;
@@ -23,7 +23,9 @@ public class Return_WithoutArgument {
 	
 
 	
-	    public static void main(String[] args) {
+	    public static void main(String[] args)
+
+		{
 	    	Return_WithoutArgument atm = new Return_WithoutArgument();
 
 	        // Call method and store returned value
@@ -37,7 +39,9 @@ public class Return_WithoutArgument {
 	}
 
 /* We store the returned value in variables (currentBalance, bankname) so that we can use them later.
+✅ Important interview line ⭐
 
+A return method sends result back to the caller so it can be reused further.
 
 
 

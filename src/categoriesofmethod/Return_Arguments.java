@@ -4,7 +4,7 @@ public class Return_Arguments {
 	
 	
 	
-	public int b1(int amount)
+	public int b1(int amount)  //takes input of amount and return the same value
 	{
 			
 		return amount;
@@ -13,10 +13,10 @@ public class Return_Arguments {
 	
 	
 	
-	public String B2(String bankname)
+	public String b2(String bankName) // takes input of bank name and return the same value
 	{
 		
-		return bankname;	
+		return bankName;
 	}
 	
 	
@@ -24,10 +24,10 @@ public class Return_Arguments {
 	public static void main(String[]args)
 	{
 		
-		Return_Arguments obj = new Return_Arguments();
+		Return_Arguments r = new Return_Arguments();
 		
-		int balance = obj.b1(11000);
-		String name = obj.B2("SBI");
+		int balance = r.b1(11000);
+		String name = r.b2("SBI");
 		
 		System.out.println(balance);
 		System.out.println(name);
@@ -36,7 +36,18 @@ public class Return_Arguments {
 		
 	}
 	
-	
+	/*
+
+	✅ Interview Definition ⭐
+
+A method with return type and arguments receives data, processes it, and sends result back to the caller.
+
+
+	 */
+
+
+
+
 	
 	
 	
