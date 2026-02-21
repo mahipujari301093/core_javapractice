@@ -6,7 +6,7 @@ public class ArrayListMethodsExample {
 	    public static void main(String[] args) {
 
 	        // Create ArrayList
-	        ArrayList<String> names = new ArrayList<String>();
+	        ArrayList<String> names = new ArrayList	<String>();
 
 	        // add() - add elements
 	        names.add("Vishal");
@@ -26,7 +26,7 @@ public class ArrayListMethodsExample {
 	        names.remove("Sagar");
 	        System.out.println("After remove(): " + names);
 
-	        // contains() - check element
+	        // contains() - check element is present in the list or not
 	        System.out.println("Contains Neha? " + names.contains("Neha"));
 
 	        // addAll() - add another list
@@ -99,9 +99,15 @@ System.out.println("After retainAll(): " + names);
 🧠 Output:
 Before retainAll(): [Vishal, Ravi, Neha, Amit]
 After retainAll(): [Neha, Amit] 
- 
- 
- 
+
+🔹 Your Example Explained Step-By-Step
+First List (names) [Vishal, Ravi, Neha, Amit] add second list (common) [Neha, Amit]
+Second List (common) [Neha, Amit]
+
+🔹 What retainAll() Means (Simple Definition)
+👉 retainAll() keeps only the common elements between two lists and removes all other elements.
+
+ *******************************************************************************
 ArrayList allowed duplicate values and null values
 
 Null and duplicate values allowed 
@@ -120,7 +126,13 @@ LinkedList<String> names = new LinkedList<>();
         names.add("Neha");
         names.add("Vishal");  // duplicate allowed        
  
-   
+
+ 🔥 Important Concept
+
+ ArrayList size is not fixed , java creates a bigger array internally.
+ ArrayList accept multiple null values and duplicate values.
+
+
  
  */
 

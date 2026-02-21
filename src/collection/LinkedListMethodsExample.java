@@ -89,26 +89,6 @@ LinkedList<String> names = new LinkedList<>();
         names.add("Neha");
         names.add("Vishal");  // duplicate allowed        
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- *
+
  */
 
