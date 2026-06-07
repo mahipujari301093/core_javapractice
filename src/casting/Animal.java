@@ -19,15 +19,23 @@ public class Animal {
 Casting
 │
 ├── Primitive Casting
-│     ├── Widening (implicit)
-│     └── Narrowing (explicit)
+│     │
+│     ├── Widening / Implicit Casting
+│     │      → Smaller datatype to bigger datatype
+│     │      → Done automatically by Java
+│     │
+│     └── Narrowing / Explicit Casting
+│            → Bigger datatype to smaller datatype
+│            → Done manually using cast operator
 │
 └── Object Casting (Inheritance)
+      │
       ├── Upcasting
+      │      → Child object assigned to parent reference
+      │      → Automatic
+      │
       └── Downcasting
-
-
-
-
+             → Parent reference converted back to child reference
+             → Manual casting required
 
  */

@@ -84,22 +84,7 @@ If you can handle it → use try-catch.
 
 If you cannot handle it → use throws.	
  	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
+
  */
 	
 	

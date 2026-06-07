@@ -6,8 +6,8 @@ public class EqualsOpertaor {
 
         // Example: Using Equality (==) to compare values
 
-		int expectedLinks = 100;
-		int actualLinks = 10;
+		int expectedLinks = 1001;
+		int actualLinks = 1001;
 
 		if (expectedLinks == actualLinks)
 		{

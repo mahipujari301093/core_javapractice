@@ -10,7 +10,7 @@ public class LessThan_EqualTo {
 
 			int items = 50;  // we can change the value to test the condition
 
-			if (items <= 10)
+			if (items <= 50)
 
 			{
 				System.out.println("Within limit");

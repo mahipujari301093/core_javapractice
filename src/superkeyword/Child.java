@@ -32,8 +32,8 @@ public class Child extends Parent {
 /*
 
 Why do we use super?
-When Child and parent have same variable names
-We need to call parent constructor and method
+When Child and parent class have same variable names
+super keyword is used inside child class constructors and non-static methods because it refers to parent class object members.
 
 👉 It removes ambiguity between parent and child members.
 

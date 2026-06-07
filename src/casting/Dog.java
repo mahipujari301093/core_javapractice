@@ -19,6 +19,7 @@ public class Dog extends Animal {
 
 		// a.bark(); // ❌ Not allowed (only parent methods accessible because ref will decide what you can access)
 
+
 	}
 
 }
@@ -30,7 +31,7 @@ public class Dog extends Animal {
 Dog is a subclass of Animal.
 
 When we write Animal a = new Dog();,
-a child object is assigned to a parent reference. This is called upcasting.
+a child object is assigned to a parent reference = This is called upcasting.
 
 After upcasting, only the methods available in the parent class(Animal) can be accessed using the reference variable.
 

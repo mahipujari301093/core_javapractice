@@ -5,7 +5,7 @@ public class Not_Operator {
 	    public static void main(String[] args) {
 
 
-			boolean UserloggedIn = true;  // Change this to false to test the "not logged in" scenario
+			boolean UserloggedIn = false;  // Change this to false to test the "not logged in" scenario
 
 			if (!UserloggedIn)   // !UserloggedIn means user is NOT logged in
 

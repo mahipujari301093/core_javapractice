@@ -2,11 +2,11 @@ package Operators;
 
 public class Modulus {
 	
-	// “The modulus operator % returns the remainder after division.”
+	// “The modulus operator % returns the remainder value after division.”
 
 	public static void main(String[] args) {
 
-		int a = 11 % 2;          // remainder when 10 is divided by 3
+		int a = 11 % 2;          // remainder when 10 is divided by 2
 
 		int c = 100 % 4;       // remainder when 100 is divided by 4
 

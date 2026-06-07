@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "datatype.Practice",
+            "projectName": "core_javapractice",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "modulePaths": ["${workspaceFolder}/target/classes", "${workspaceFolder}/out/production/core_javapractice"]
+        },
+        {
+            "name": "Launch Java Program",
+            "type": "java",
+            "request": "launch",
+            "mainClass": "${file}",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "modulePaths": ["${workspaceFolder}/target/classes", "${workspaceFolder}/out/production/core_javapractice"]
+        }
+    ]
+}

@@ -31,8 +31,9 @@ public class Thiskeyword {  // this keyword is used in non-static methods, const
 	}
 
 /*
-When local and instance(Global) variables have the same name, Java gives priority to the local variable.
-To access the instance (global) variable inside a non-static method, we use the this keyword.
+"this" keyword refers to current class object.
+It is mainly used to access instance variables when local and global variables have same name.
+To access the instance (global) variable inside a non-static method, we use this keyword.
 
 👉 Instance = Object
 

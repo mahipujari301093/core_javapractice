@@ -6,8 +6,8 @@ public class OR_Operator {
 
         // OR operator (||) is used when we want to check if at least one condition is true.
 
-		boolean emailValid = false;   // Change this to true to test the "email valid" scenario
-		boolean phoneValid = true;
+		boolean emailValid = true;   // Change this to true to test the "email valid" scenario
+		boolean phoneValid = false;
 
 		if (emailValid || phoneValid)
 		{

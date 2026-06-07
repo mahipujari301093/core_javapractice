@@ -6,7 +6,7 @@ public class Dog_AbstractClass extends Animal_AbstractClass {
 	// Child class – full information
 
 	@Override
-	public void sound()    // Subclass completes abstract method
+	public void sound()    // Implementing the abstract method from the parent class
 	{
 		
 		System.out.println("Dog says Woof!");

@@ -18,38 +18,25 @@ public abstract class Animal_AbstractClass {
 
 
 /*
-
- ✅ Your Correct Understanding (Refined Explanation)
+Abstract Class – Standard Definition
+✅ Correct Understanding (Refined Explanation)
 
 When we have only partial information about a functionality,
-we declare the class as abstract and also define abstract (incomplete) methods inside it.
+we declare the class as abstract and define abstract (incomplete) methods inside it.
 
-The abstract class can have:
+An abstract class can contain:
 
-Complete methods → fully defined (common behavior).
 
-Incomplete (abstract) methods → only declared, not implemented yet.
+✅ Abstract methods → methods declared without implementation
+✅ Non-abstract methods → methods with complete implementation
 
-When we later get the full information about how the functionality should work,
-we create a child class that extends the abstract class and implements all the abstract methods.
+Later, when we get the complete implementation details,
+we create a child class that extends the abstract class and provides implementation for all abstract methods.
 
-We cannot create an object of an abstract class because it is incomplete (contains abstract methods).
-But we can create an object of the child class (which completes the functionality).
+We cannot create an object of an abstract class because it may contain incomplete methods (abstract methods).
 
-It is used as a blueprint for other classes, and you cannot create an object of it.
- 
- 🧠 Key Points to Remember
-Concept	Explanation
+But we can create an object of the child class that completes the implementation.
 
-Abstract Class:	    Used when we have partial information about functionality
-Abstract Method: 	Declared without body; must be implemented by subclass
-Concrete Method:	Declared with body; inherited by subclass
-Instantiation:	    Cannot create object of abstract class directly
-Purpose	Provides a template or base structure for subclasses
- 
- 🧠 In one line:
+An abstract class acts as a blueprint/template for other classes.
 
-Abstract class = a half-defined template that subclasses complete.
-
- 
  */

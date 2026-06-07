@@ -7,21 +7,12 @@ public class VariableLevel_AccessModifiers {
    public class VariableAccess {
 
 
-public int a = 10;     // accessible from anywhere (any class, any package)
-
-private int b = 20;    // accessible only within the same class
-
-protected int c = 30;  // accessible within the same package and in subclasses (even in different packages)
-
-int d = 40;            // default (package-private) → accessible only within the same package
-
-
-✅ Easy Memory Trick ⭐
-
-public    → everyone
-private   → only me
-protected → family (package + child)
-default   → same house (package)
+| Access Modifier | Syntax Example          | Accessibility                                                    |
+| --------------- | ----------------------- | ---------------------------------------------------------------- |
+| `public`        | `public int a = 10;`    | Access anywhere                                                  |
+| `default`       | `int a = 10;`           | Access within same package                                       |
+| `private`       | `private int a = 10;`   | Access only within same class                                    |
+| `protected`     | `protected int a = 10;` | Access within same package + outside package through child class |
 
 
 */

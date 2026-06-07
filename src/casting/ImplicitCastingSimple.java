@@ -11,13 +11,12 @@ public class ImplicitCastingSimple {
 		
 		System.out.println("Integer value: " + a);
         System.out.println("Double value: " + b);   // int automatically converted to double by Java
-        
-        
-		
-		
+
 	}
 
 }
+
+
 
 /*
 🔹 Explanation:
@@ -46,7 +45,7 @@ In explicit type casting, data conversion happens manually (done by the programm
 | **Explicit (Narrowing)** | Bigger → Smaller | Programmer (Manual) | `double → int` | ⚠️ Possible |
 
 ✅ Best Explanation Version
-When an int value is assigned to a double variable,
+we can assigned small value to bigger data type
 Java automatically converts int to double because double can store a larger range of values.
 
 */

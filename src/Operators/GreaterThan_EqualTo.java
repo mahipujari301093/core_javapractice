@@ -6,7 +6,7 @@ public class GreaterThan_EqualTo {
 
 
 
-		int age = 5;  // we can change the value to test the condition
+		int age = 18;  // we can change the value to test the condition
 
 		if (age >= 18)
 		{

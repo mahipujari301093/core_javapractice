@@ -13,8 +13,8 @@ public class StaticVariable_NonStaticVariable {
 	public static void main(String[]args)
 	{
 		
-		System.out.println(StaticVariable_NonStaticVariable.b);
-		System.out.println(StaticVariable_NonStaticVariable.d);
+		System.out.println(d);
+		System.out.println(b);
 		
 		StaticVariable_NonStaticVariable obj = new StaticVariable_NonStaticVariable();
 		

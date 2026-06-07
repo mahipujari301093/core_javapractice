@@ -58,6 +58,14 @@ With continue → loop jumps to next round
 continue = skip but stay inside loop
 break = come outside loop
 
+Real-Life Example
+
+Suppose you are checking attendance:
+
+If one student is absent → skip that student and continue checking others.
+
+That behavior is like continue.
+
  */
 
 
