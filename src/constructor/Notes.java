@@ -5,72 +5,59 @@ public class Notes {
     /*
 
     ✅ What is a Constructor?
-    👉 A constructor is a special method used to initialize objects.
-    It runs automatically when object is created.
 
-    ✅ How to identify constructor?
-    ✔ Constructor Name must be same as class name
-    ✔ No return type (not even void) can't define return type for constructor.
-    ✔ Called when we use new keyword to create an object.
-      we can define multiple constructor in a class with arguments and without arguments.
+    👉 A constructor is a special method used to initialize objects.
+    It is automatically called when an object is created.
+
+
+    ✅ How to Identify a Constructor?
+
+    ✔ Constructor name must be the same as the class name.
+
+    ✔ A constructor has no return type
+      (not even void).
+
+    ✔ It is automatically called when we create an object using the new keyword.
+
+    ✔ We can define multiple constructors in a class
+      using constructor overloading
+      (with arguments and without arguments).
 
 
     ✅ Types of Constructors in Java
 
-      There are mainly 2.
+       Mainly there are 3 types:
 
-       With argument constructor - passing parameters to initialize variables
-       No-argument constructor - No parameters
-       Default constructor (if no constructor is defined, Java provides a default constructor with no arguments)
+       1️⃣ No-Argument Constructor
+          → Constructor without parameters.
 
-    ✅ 1) Default Constructor
+       2️⃣ Parameterized Constructor
+          → Constructor with parameters used to initialize variables.
 
-       👉 Created automatically by Java (JVM)
-       👉 Only when you don’t write any constructor in the class.
-
-       ✅ Best Interview Line 🥇
-
-      👉 A default constructor is a constructor automatically created by the JVM
-         when you do not write any constructor in the class.
+       3️⃣ Default Constructor
+          → Automatically provided by JVM/compiler
+             only if no constructor is written in the class.
 
 
-                 Constructors
-                     |
-      --------------------------------
-      |                              |
- No-Argument (you write)      Parameterized (you write)
+    ✅ Default Constructor
 
- Compiler gives → Default (only if none written)
+    👉 A default constructor is automatically created by the JVM/compiler
+       when no constructor is defined in the class.
 
 
+    ✅ Best Interview Line 🥇
+
+    👉 A constructor is a special method used to initialize objects,
+       and it is automatically invoked when an object is created.
 
 
-     */
+                     Constructors
+                           |
+          -----------------------------------
+          |                |                |
+   No-Argument      Parameterized      Default
+   (user-defined)   (user-defined)   (JVM-provided)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    */
 }

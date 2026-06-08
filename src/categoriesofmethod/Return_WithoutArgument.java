@@ -12,17 +12,7 @@ public class Return_WithoutArgument {
 	        return balance;           // returns current balance
 	    }
 	   
-	   
-	   
-	   public String name()
-	   {
-		   
-		   String bank = "BOM";
-		   return bank;
-	   }
-	
 
-	
 	    public static void main(String[] args)
 
 		{
@@ -31,17 +21,17 @@ public class Return_WithoutArgument {
 	        // Call method and store returned value
 	    	
 	        int currentBalance = atm.getBalance();
-	        String bankname = atm.name();
-	        System.out.println("Your current balance is: ₹" + currentBalance);
-	        System.out.println(bankname);
-	    	
+			System.out.println(currentBalance);
+
 	    }
 	}
 
-/* We store the returned value in variables (currentBalance, bankname) so that we can use them later.
+/*
+
 ✅ Important interview line ⭐
 
-A return method sends result back to the caller so it can be reused further.
+A return method sends the result back to the caller so the returned value can be reused later in the program.
+A method that returns a value to the caller but does not take any input parameters is called a return type & no argument method.
 
 
 

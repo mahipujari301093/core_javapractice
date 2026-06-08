@@ -1,11 +1,9 @@
 package stringpractice;
 
 	public class DoubleEqualsExample {
-		
-		
-		
-		
-		
+
+
+
 	    public static void main(String[] args) {
 	        String s1 = "Java";
 	        String s2 = "Java";

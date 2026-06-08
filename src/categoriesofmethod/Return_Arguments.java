@@ -11,26 +11,15 @@ public class Return_Arguments {
 			
 	}
 	
-	
-	
-	public String b2(String bankName) // takes input of bank name and return the same value
-	{
-		
-		return bankName;
-	}
-	
-	
-	
+
 	public static void main(String[]args)
 	{
 		
 		Return_Arguments r = new Return_Arguments();
 		
-		int balance = r.b1(11000);
-		String name = r.b2("SBI");
-		
+		int balance = r.b1(11000000);
 		System.out.println(balance);
-		System.out.println(name);
+
 		
 		
 		
@@ -44,12 +33,5 @@ A method with return type and arguments receives data, processes it, and sends r
 
 
 	 */
-
-
-
-
-	
-	
-	
 
 }

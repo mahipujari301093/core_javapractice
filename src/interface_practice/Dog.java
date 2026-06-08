@@ -16,11 +16,11 @@ public class Dog implements Animal {
 	
 	public static void main(String[]args)
 	{
-		
-		Animal a = new Dog();  //  here we are creating an interface reference and class object to achieve polymorphism
-	
-		a.eat();
-		a.sound();
+
+		Dog d  = new Dog();
+
+		d.eat();
+		d.sound();
 		
 		
 	}
@@ -31,11 +31,6 @@ public class Dog implements Animal {
 /*
 
 🔑 In short:
-
-✅ Final One-Line Summary -> Animal a = new Dog();
-👉 We create a child object with a parent reference so that the program can work with any
-implementation without changing existing code.
-
 
 ✅ Real-Time Example (Selenium)
 Interface: WebDriver

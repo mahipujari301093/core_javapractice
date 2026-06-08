@@ -1,50 +1,38 @@
 package constructor;
 
-public class Student {   // No-argument constructor example
+public class Student {
 
-    String name;
-    int age;
 
-    // No-argument constructor (written by programmer)
-
-    public Student()
+    public Student()  // No-argument constructor
     {
-        this.name = "Vishal Pujari";
-        this.age = 32;
-
-
+        System.out.println("First constructor called");
     }
 
-    // create Method to display Student info
-    public void displayStudentInfo()
+    public Student(String name)  // With argument constructor
     {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
+        this();      // Calling first constructor inside second constructor by using this() keyword
+        System.out.println("Second constructor called with name: " + name);
     }
+
 
     public static void main(String[]args)
     {
-
-        Student s = new Student(); // Constructor is called automatically when object is created
-        s.displayStudentInfo();
-
+        Student s = new Student("Vishal Pujari");
     }
 
 
 /*
 
-✅ One Line Interview Definition 🥇
+this() keyword helps reuse one constructor inside another constructor of the same class, reducing duplicate code.
 
-👉 A no-argument constructor is a constructor that does not take any parameters and is used to initialize objects with default values.
+this() is used to call another constructor of the same class.
 
-
-✅ Interview Golden Line 🥇
-
-👉 this keyword refers to the current object and is mainly used to access instance variables inside constructors or non-static methods.
 
 
 
  */
+
+
 
 
 

@@ -30,9 +30,7 @@ public class If_Else {
 
 if-else is used to check a condition.
 
-If the condition is true → code inside if runs.
-
-If the condition is false → code inside else runs.
-
+If condition is true → if block executes
+If condition is false → else block executes
 
  */

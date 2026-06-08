@@ -91,6 +91,15 @@ Class = class is the developer who implements the features that client wants
 The developer then creates a class that implements the interface and provides the actual behavior for those features.
 
 
+| Feature                       | Interface           |
+| ----------------------------- | ------------------- |
+| Methods                       | Abstract by default |
+| Variables                     | public static final |
+| Object creation               | ❌ Cannot create     |
+| Supports multiple inheritance | ✅ Yes               |
+| Keyword used                  | `implements`        |
+
+
 */
 
 }
