@@ -474,6 +474,28 @@ and interfaces.
 
 =========================================================
 
+Abstraction
+     |
+     |
+     +---- Abstract Class
+     |          |
+     |          +-- Abstract method (no body)
+     |          +-- Concrete method (with body)
+     |
+     |
+     +---- Interface
+                |
+                +-- Defines WHAT to do
+                +-- Class defines HOW to do
+
+
+ One important connection with your previous topics:
+
+Encapsulation → How to protect data?
+Abstraction → How to hide complexity?
+Inheritance → How to reuse code?
+Polymorphism → How to achieve multiple behaviors?
+
 */
 
 }
