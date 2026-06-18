@@ -34,7 +34,7 @@ Casting
       │      → Child object assigned to parent reference
       │      → Automatic
       │
-      └── Downcasting
+      └── DownCasting
              → Parent reference converted back to child reference
              → Manual casting required
 

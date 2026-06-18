@@ -1,6 +1,6 @@
 package encapsulation;
 
-public class TestBank {
+public class  TestBank {
 
 
 
@@ -68,5 +68,42 @@ Encapsulation is not only hiding data, it is also:
 ✔ controlling access
 ✔ protecting data
 ✔ providing safe communication
+
+
+Encapsulation Structure
+             BankAccount Class
+
+        -------------------------
+        |                       |
+        | private balance       |
+        |                       |
+        -------------------------
+                    |
+                    |
+          Getter and Setter Methods
+                    |
+                    |
+              Outside Classes
+
+
+setBalance()  ---> Update data
+getBalance()  ---> Read data
+
+Correct Encapsulation Understanding:
+
+✅ Declare variables as private → hide data
+✅ Create getter method → read data
+✅ Create setter method → modify/update data
+✅ Main class creates object and calls these methods
+
+The purpose is:
+
+Outside classes cannot directly access or modify the data. They can only interact through the methods provided by the class.
+
+So your concept is correct, just remember:
+
+Getter + Setter → read and change
+Only Getter → read only
+Private variable alone → completely hidden ✅
 
  */

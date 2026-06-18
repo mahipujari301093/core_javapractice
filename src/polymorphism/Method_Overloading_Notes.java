@@ -132,6 +132,15 @@ private void m1(int a)
 👉 Method name → SAME (m1)
 👉 Parameters → Different arguments (char vs int)
 
+
+"In method overloading, we create multiple methods with the same name inside the same class.
+ Although the method name is the same, each method behaves differently because the parameters are different.
+ Java identifies which method to execute based on the arguments passed while calling the method."
+
+✅ This is exactly the concept of method overloading.
+
+It is also called compile-time polymorphism because the compiler decides which method should execute at compile time.
+
   */
 
 

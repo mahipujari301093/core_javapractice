@@ -1,13 +1,13 @@
 package exceptionhandling;
 
-public class NullPointerExample {  // Unchecked exception
+public class NullPointerExample {  // Unchecked(Runtime) exception
 	
 	
 	    public static void main(String[] args) {
 	        
 	        String name = null;   // name has no memory/object assigned
 	        
-//	        System.out.println(name.length());  // ❌ NullPointerException here
+	//        System.out.println(name.length());  // ❌ NullPointerException here
 	    
 	    
 	   // Handling the Null pointer exception 
@@ -24,6 +24,8 @@ public class NullPointerExample {  // Unchecked exception
 	    {
             System.out.println("Null value! Please initialize the object first.");
         }
+
+			    System.out.println("Used catch block : Program continue without crashing");
 	    
 	    }  
 	}

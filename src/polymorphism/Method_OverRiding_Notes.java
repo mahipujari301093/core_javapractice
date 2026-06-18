@@ -43,52 +43,16 @@ Constructors are not inherited.Overriding works only on inherited methods. ❌ C
 Static methods belong to the class, not object.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Condition   | Parent Method  | Child Method | Result   |
+| ----------- | -------------- | ------------ | -------- |
+| Method name | property()     | property()   | ✅ Same   |
+| Arguments   | No arguments   | No arguments | ✅ Same   |
+| Return type | void           | void         | ✅ Same   |
+| Inheritance | Parent → Child | ✅            | Required |
 
 
 
   */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

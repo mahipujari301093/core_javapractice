@@ -66,26 +66,9 @@ public class Child implements Father, Mother {    // ✅ Allowed (Father and Mot
 
 Java supports multiple inheritance through interfaces, not through classes.
 
-
-
-
-
-
-
-
-
-
-
-
+Key Point: Java does not allow a class to extend multiple classes, but it achieves multiple inheritance safely through interfaces.
 
      */
-
-
-
-
-
-
-
 
 
 }
