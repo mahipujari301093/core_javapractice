@@ -19,8 +19,8 @@ public class CoffeeMachine {
     public void displayInfo()  // Normal method to display the information of the coffee machine
     {
 
-        System.out.println("Coffee Type: " + coffeeType);
-        System.out.println("Cup Size: " + cupSize);
+       System.out.println("Coffee Type: " + coffeeType);
+       System.out.println("Cup Size: " + cupSize);
     }
 
     public static void main(String[]args)

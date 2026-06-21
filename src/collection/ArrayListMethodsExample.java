@@ -1,138 +1,70 @@
 package collection;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class ArrayListMethodsExample {
+
 	    public static void main(String[] args) {
 
-	        // Create ArrayList
-	        ArrayList<String> names = new ArrayList	<String>();
 
-	        // add() - add elements
-	        names.add("Vishal");
-	        names.add("Radhika");
-	        names.add("Sagar");
-	        names.add("Neha");
-	        System.out.println("After add(): " + names);
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("Virat");
+		names.add("Virat");
+		names.add("Rohit");
+		names.add("Sachin");
+		names.add("Dhoni");
+		names.add(null);
+		names.add(null);
+		System.out.println(names);
 
-	        // set() - update element(replace)
-	        names.set(1, "Ravi");
-	        System.out.println("After set(): " + names);
-	        
-	        // get() - get element by index
-	        System.out.println("Element at index 2: " + names.get(2));
+		names.set(2,"Hardik");
+		System.out.println(names);
 
-	        // remove() - remove element by name
-	        names.remove("Sagar");
-	        System.out.println("After remove(): " + names);
+		System.out.println(names.get(2));
 
-	        // contains() - check element is present in the list or not
-	        System.out.println("Contains Neha? " + names.contains("Neha"));
+		System.out.println(names.contains("Rohit"));
 
-	        // addAll() - add another list
-	        ArrayList<String> newNames = new ArrayList<String>();
-	        newNames.add("Amit");
-	        newNames.add("Priya");
-	        names.addAll(newNames);
-	        System.out.println("After addAll(): " + names);
 
-	        // retainAll() - keep only common elements
-	        ArrayList<String> common = new ArrayList<>();
-	        common.add("Neha");
-	        common.add("Amit");
-	        names.retainAll(common);
-	        System.out.println("After retainAll(): " + names);
+        ArrayList<String> nm = new ArrayList<String>();
+		nm.add("Jadeja");
+		nm.add("Shami");
+		names.addAll(nm);
+		System.out.println(names);
 
-	        // removeAll() - remove all from another list
-	        names.removeAll(common);
-	        System.out.println("After removeAll(): " + names);
+        System.out.println(names.size());
 
-	        // size() - get number of elements
-	        System.out.println("Size: " + names.size());
-	        
-	     // clear() - remove all elements
-	        names.clear();
-	        System.out.println("After clear(): " + names);
-	    }
-	}
+		names.remove("Dhoni");
+		System.out.println(names);
 
+        names.clear();
+		System.out.println(names);
+
+
+		}
+
+
+}
 
 /*
- 
-💡 In short:
-Method	Purpose
-add()	Add one element
-set()	Replace an element
-remove()	Remove element
-contains()	Check if element exists
-addAll()	Add all elements from another list
-retainAll()	Keep only common elements
-removeAll()	Remove elements from another list
-size()	Get total number of elements 
-clear()  Remove all elements
-
-💡 Meaning of retainAll() method:
-
-👉 retainAll() keeps only the common elements between two ArrayLists and removes all other elements.
- 
- 
-RetailAll example:
-
-ArrayList<String> names = new ArrayList<>();
-names.add("Vishal");
-names.add("Ravi");
-names.add("Neha");
-names.add("Amit");
-
-System.out.println("Before retainAll(): " + names);
-
-// Another list with some common names
-ArrayList<String> common = new ArrayList<>();
-common.add("Neha");
-common.add("Amit");
-
-// Keep only names that are also in 'common'
-names.retainAll(common);
-
-System.out.println("After retainAll(): " + names);
-
-🧠 Output:
-Before retainAll(): [Vishal, Ravi, Neha, Amit]
-After retainAll(): [Neha, Amit] 
-
-🔹 Your Example Explained Step-By-Step
-First List (names) [Vishal, Ravi, Neha, Amit] add second list (common) [Neha, Amit]
-Second List (common) [Neha, Amit]
-
-🔹 What retainAll() Means (Simple Definition)
-👉 retainAll() keeps only the common elements between two lists and removes all other elements.
-
- *******************************************************************************
-ArrayList allowed duplicate values and null values
-
-Null and duplicate values allowed 
- LinkedList<String> names = new LinkedList<>();
-
-        names.add("Ravi");
-        names.add(null);       // null allowed
-        names.add("Neha");
-        names.add(null);       // another null allowed
-        
-        
-
-LinkedList<String> names = new LinkedList<>();
-
-        names.add("Vishal");
-        names.add("Neha");
-        names.add("Vishal");  // duplicate allowed        
- 
-
- 🔥 Important Concept
-
- ArrayList size is not fixed , java creates a bigger array internally.
- ArrayList accept multiple null values and duplicate values.
 
 
- 
- */
+1. ArrayList size is dynamic (not fixed).
 
+2. ArrayList allows multiple null values.
+
+3. ArrayList allows duplicate values.
+
+4. ArrayList maintains insertion order.
+
+5. Elements are stored in the same order in which they are added.
+
+6. ArrayList uses index-based storage (index starts from 0).
+
+7. ArrayList is not synchronized (not thread-safe).
+
+
+
+
+
+
+*/

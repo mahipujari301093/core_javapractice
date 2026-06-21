@@ -40,7 +40,7 @@ Now c.honk(); works because we told Java this parent object is actually a Car.
 
 
 Parent ref → Child object  = Upcasting done automatically by Java (implicit)
-Parent ref → back to Child = Downcasting done manually by programmer (explicit)
+Parent ref → back to Child = DownCasting  done manually by programmer (explicit)
 
 Why c.start() also works? Because Car inherits from Vehicle.
 

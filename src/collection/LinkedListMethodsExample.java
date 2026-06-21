@@ -4,91 +4,61 @@ package collection;
 	import java.util.LinkedList;
 
 	public class LinkedListMethodsExample {
+
 	    public static void main(String[] args) {
 
-	        // Create LinkedList
-	        LinkedList<String> names = new LinkedList<String>();
+			LinkedList<Integer> ls = new LinkedList<Integer>();
+			ls.add(10);
+			ls.add(20);
+			ls.add(30);
+			ls.add(40);
+			ls.add(40);
+			ls.add(null);
+			System.out.println(ls);
 
-	        // add() - Add elements
-	        names.add("Vishal");
-	        names.add("Radhika");
-	        names.add("Neha");
-	        System.out.println("After add(): " + names);
+			ls.addFirst(60);
+			System.out.println(ls);
 
-	        // addFirst() - Add element at beginning
-	        names.addFirst("Amit");
-	        System.out.println("After addFirst(): " + names);
+			ls.addLast(80);
+			System.out.println(ls);
 
-	        // addLast() - Add element at end
-	        names.addLast("Sagar");
-	        System.out.println("After addLast(): " + names);
 
-	        // get() - Get element by index
-	        System.out.println("Element at index 2: " + names.get(2));
+			System.out.println(ls.getFirst());
+			System.out.println(ls.getLast());
 
-	        // getFirst() and getLast()
-	        System.out.println("First Element: " + names.getFirst());
-	        System.out.println("Last Element: " + names.getLast());
+			ls.removeFirst();
+			System.out.println(ls);
 
-	        // set() - Replace element
-	        names.set(2, "Ravi");
-	        System.out.println("After set(): " + names);
+			ls.removeLast();
+			System.out.println(ls);
 
-	        // contains() - Check if element exists
-	        System.out.println("Contains Neha? " + names.contains("Neha"));
+			System.out.println(ls.get(2));
 
-	        // remove() - Remove by value
-	        names.remove("Ravi");
-	        System.out.println("After remove(): " + names);
+			System.out.println(ls.size());
 
-	        // removeFirst() and removeLast()
-	        names.removeFirst();
-	        names.removeLast();
-	        System.out.println("After removeFirst() & removeLast(): " + names);
+			System.out.println(ls.contains(30));
 
-	        // size() - Number of elements
-	        System.out.println("Size: " + names.size());
-
-	        // isEmpty() - Check if empty
-	        System.out.println("Is list empty? " + names.isEmpty());
-
-	        // clear() - Remove all elements
-	        names.clear();
-	        System.out.println("After clear(): " + names);
+			ls.clear();
+			System.out.println(ls);
 	    }
 	}
 
 /*
 
- 💡 Summary of Methods Used:
-Method	Description
-add()	Add elements
-addFirst() / addLast()	Add at start or end
-get() / getFirst() / getLast()	Access elements
-set()	Update element
-contains()	Check if element exists
-remove() / removeFirst() / removeLast()	Remove elements
-size()	Get number of elements
-isEmpty()	Check if list is empty
-clear()
+1. LinkedList size is dynamic (not fixed).
 
+2. LinkedList allows multiple null values.
 
-Null and duplicate values allowed 
- LinkedList<String> names = new LinkedList<>();
+3. LinkedList allows duplicate values.
 
-        names.add("Ravi");
-        names.add(null);       // null allowed
-        names.add("Neha");
-        names.add(null);       // another null allowed
-        
-        
+4. LinkedList maintains insertion order.
 
-LinkedList<String> names = new LinkedList<>();
+5. Elements are stored in the same order in which they are added.
 
-        names.add("Vishal");
-        names.add("Neha");
-        names.add("Vishal");  // duplicate allowed        
- 
+6. LinkedList allows index-based access (index starts from 0).
+
+7. LinkedList is not synchronized (not thread-safe).
+
 
  */
 

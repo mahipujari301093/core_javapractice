@@ -491,10 +491,10 @@ Abstraction
 
  One important connection with your previous topics:
 
-Encapsulation → How to protect data?
-Abstraction → How to hide complexity?
-Inheritance → How to reuse code?
-Polymorphism → How to achieve multiple behaviors?
+Encapsulation → How to protect data? // declare variables as private and provide public getter/setter methods
+Abstraction → How to hide complexity? // declare abstract methods in abstract class or interface and provide implementation in subclass
+Inheritance → How to reuse code? // create a parent class and extend it in child class
+Polymorphism → How to achieve multiple behaviors? // method overloading (compile-time polymorphism) and method overriding (run-time polymorphism)
 
 */
 

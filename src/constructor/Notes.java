@@ -31,7 +31,7 @@ public class Notes {
        1️⃣ No-Argument Constructor
           → Constructor without parameters.
 
-       2️⃣ Parameterized Constructor
+       2️⃣ Parameterized Constructor // with arguments
           → Constructor with parameters used to initialize variables.
 
        3️⃣ Default Constructor
