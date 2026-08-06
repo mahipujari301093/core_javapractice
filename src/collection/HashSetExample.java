@@ -17,6 +17,17 @@ public class HashSetExample {
 
 		System.out.println("Names :" + names);
 
+		System.out.println(names.contains("Neha"));
+
+		System.out.println(names.size());
+
+		names.remove("Neha");
+		System.out.println(names);
+
+		names.clear();
+		System.out.println(names);
+
+
 	}
 
 }
@@ -30,10 +41,10 @@ It is part of the java.util package and is implemented by classes like HashSet, 
 
 👉 Key points:
 
-No duplicate values allowed ✅
+HashSet does not allow duplicate values.
 
-Only one null value allowed
+HashSet allows only one null value.
 
-
+HashSet does not maintain insertion order.
 
 */

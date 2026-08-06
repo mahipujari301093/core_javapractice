@@ -8,7 +8,7 @@ public class CoffeeMachine {
     String coffeeType;
     String cupSize;
 
-    public void CoffeeMachine()  //  defined Constructor
+    public CoffeeMachine()  //  defined Constructor
     {
 
         this.coffeeType = "Espresso";
@@ -26,7 +26,7 @@ public class CoffeeMachine {
     public static void main(String[]args)
     {
         CoffeeMachine cm = new CoffeeMachine();
-        cm.CoffeeMachine(); // Calling the method to initialize the attributes
+    
         cm.displayInfo(); // Displaying the information of the coffee machine
     }
 

@@ -6,7 +6,7 @@ import java.util.HashMap;
 		    public static void main(String[] args) {
 
 		        // Create HashMap
-		        HashMap<Integer, String> cityMap = new HashMap<>();
+		        HashMap<Integer, String> cityMap = new HashMap<Integer, String>();
 
 		        // 1️⃣ Add normal key-value pairs
 		        cityMap.put(1, "Mumbai");

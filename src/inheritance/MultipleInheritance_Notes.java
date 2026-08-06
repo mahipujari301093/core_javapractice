@@ -7,7 +7,7 @@ public class MultipleInheritance_Notes {
 
     ❌ Multiple Inheritance with Classes in Java
 
-    Java does NOT support multiple inheritance using classes.
+    A child class cannot extend multiple parent classes, so Java does not support multiple inheritance with classes.
 
    👉 One class cannot extend more than one class.
 

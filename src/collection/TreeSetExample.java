@@ -5,6 +5,7 @@ import java.util.TreeSet;
 public class TreeSetExample {
 
 	public static void main(String[] args) {
+
 		TreeSet<String> cities = new TreeSet<String>();
 
 		cities.add("Pune");
@@ -15,11 +16,22 @@ public class TreeSetExample {
 //		 cities.add(null);   ❌ not allowed — TreeSet does not allow null
 
 		System.out.println("Cities: " + cities);
+
+		System.out.println(cities.size());
+
+		cities.remove("Delhi");
+		System.out.println(cities);
+
+		System.out.println(cities.getFirst());
+		System.out.println(cities.getLast());
+
+
 	}
 }
 
 
 /*
+
 Key Points about TreeSet:
 
 Does not allow duplicate values.
@@ -27,7 +39,5 @@ Does not allow duplicate values.
 Does not allow null values.
 
 Stores elements in sorted (ascending) order automatically.
-
-It implements the NavigableSet and SortedSet interfaces.
 
 */

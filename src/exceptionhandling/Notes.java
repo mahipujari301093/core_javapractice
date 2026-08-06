@@ -4,87 +4,80 @@ public class Notes {
 	
 /*
  
- 💡 Simple Way to Remember
+Checked Exceptions
 
-🧠 Checked Exception → External Problem (it occurs At compile time)
-Compiler forces you to handle it using try-catch or throws keyword
+Definition
 
-Something outside your code fails — file missing, server down, network issue.
-Java says: “You must handle this!”
+Exceptions that are checked by the compiler before the program runs.
+
+If not handled, the program will not compile.
+
+Common Examples
+
+Exception	            When does it occur?
+IOException	            Reading/Writing a file fails
+FileNotFoundException	File does not exist
+SQLException	        Database operation fails
 
 
-🧠 Unchecked Exception → Developer Mistake (it occurs At runtime) Compiler does not check
-Mostly programming mistakes (logic or code errors)
+Memory Trick
+Compiler says...
 
-Something inside your code is wrong — divide by zero, null object, wrong index.
-Java says: “It’s your fault, I won’t check it.”
+"Handle me first,
+then I'll allow your program to run."	
 
 
-Checked Exception : IOException, SQLException, FileNotFoundException
+Checked Exception
 
-Unchecked Exception : ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException
- 	
+        |
+   Two Ways
+        |
+   ----------------
+   |              |
+try-catch      throws
+   |              |
+Handle Now    Handle Later
+
+try-catch is mostly used because it handles the exception immediately and allows the program to continue executing gracefully.
  
-✅ Quick Trick to Identify:
-
-Ask yourself:
-
-“Can the compiler predict this error before running?”
-
-Yes? → Checked Exception
-
-No? → Unchecked Exception
-
- 	
-⚙️ Exception Type in Your Code:
-
-ArithmeticException is a runtime exception, which means it belongs to the unchecked exception category.
-
-try block:
-Used to write the risky code that might cause an exception.
-
-catch block:
-Used to handle the exception that occurs in the try block.
-
-finally block:
-Used to write code that always executes, whether an exception occurs or not. 	
- 	
- 	
-⚙️ Quick Tip:
-
-Use throws when you don’t want to handle the exception in the method itself.
-
-Use try-catch when you want to handle the exception immediately.	
- 	
- 	
-*************************************************************
-
-💡 Best Practice Guidelines
-
-Use try-catch when:
-
-You know how to handle the exception locally.
-
-You want the program to recover and continue.
-
-Example: Reading a file and providing a default value if it’s missing.
+*************************************************************************************
 
 
-Use throws when:
+Unchecked Exceptions
 
-The method cannot handle the exception properly.
+Definition
 
-You want to inform the caller that they must handle it.
+Exceptions that occur while the program is running (Runtime).
 
-Example: A library method that reads a file — you let the user of the library handle exceptions.
+Compiler does not check these exceptions.
 
-🧠 Rule of Thumb
+Usually caused by coding mistakes.
 
-If you can handle it → use try-catch.
+Common Examples
+Exception	                    When does it occur?
+ArithmeticException	            Divide by zero (10/0)
+NullPointerException	        Calling a method on a null object
+ArrayIndexOutOfBoundsException	Accessing an invalid array index
 
-If you cannot handle it → use throws.	
- 	
+Memory Trick
+Compiler says...
 
+"I trust your code.
+If something goes wrong,
+it will fail at Runtime."
+
+
+***********************************************************************************
+
+🔒 Checked Exception (Must Handle)
+✅ Must be handled using try-catch or throws.
+❌ If you don't handle it, the compiler gives a compilation error and the program won't compile.
+
+
+🛠️ Unchecked Exception (Optional to Handle)
+✅ Not mandatory to handle.
+✅ The compiler doesn't force you to use try-catch or throws.
+🐞 These exceptions usually indicate bugs or programming mistakes, so the programmer should fix the code rather than just catch the exception.
  */
 	
 	

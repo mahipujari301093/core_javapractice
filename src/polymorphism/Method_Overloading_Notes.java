@@ -139,7 +139,18 @@ private void m1(int a)
 
 ✅ This is exactly the concept of method overloading.
 
-It is also called compile-time polymorphism because the compiler decides which method should execute at compile time.
+It is also called compile-time polymorphism because the compiler decides which method should execute at compile time based on the arguments passed while calling the method.
+
+
+
+❓ Where did you use Method Overloading in your Framework?
+
+
+
+
+
+
+
 
   */
 

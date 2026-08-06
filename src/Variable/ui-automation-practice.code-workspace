@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../IdeaProjects/ui-automation-practice"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

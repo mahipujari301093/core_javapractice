@@ -4,6 +4,8 @@ public class Child extends Parent {
 
 
     // Method Overriding because same method name and same parameters in both parent and child class
+
+
    @Override
   public void property()
     {
@@ -15,14 +17,34 @@ public class Child extends Parent {
   public static void main(String[] args)
   {
 
-      Parent p = new Child();  //parent reference and child object
+
+
+      Parent p = new Child(); 
         p.property();
 
-//Even though the reference is Parent, Java calls the Child's overridden method. This is called runtime polymorphism.
-
-
-
   }
+
+        /*
+        
+        
+        📌 Reference Type = Parent
+        📌 Object Type = Child
+
+➡️ Since property() method is overridden by child class, Java executes the Child's property() method.
+
+
+
+Easy Interview Answer
+
+It is called Runtime Polymorphism because the JVM decides which overridden method to execute while the program is running, based on the actual object, not the reference type.
+
+Easy Trick to Remember
+📝 Compile Time → Checks whether the method exists.
+▶️ Runtime → Decides which overridden method to execute.
+             
+        
+*/
+
 
 
 }

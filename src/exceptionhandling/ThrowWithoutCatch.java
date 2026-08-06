@@ -1,6 +1,5 @@
 package exceptionhandling;
 
-import java.security.InvalidParameterException;
 
 public class ThrowWithoutCatch {
 

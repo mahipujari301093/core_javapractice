@@ -8,7 +8,7 @@ public class Mobile {
     int price;
 
 
-    public void Mobile(String brand, int price )  //  defined Constructor
+    public Mobile(String brand, int price )  //  defined Constructor
     {
 
         this.brand = brand;
@@ -26,8 +26,8 @@ public class Mobile {
 
     public static void main(String[]args)
     {
-        Mobile m = new Mobile();
-        m.Mobile("Samsung", 50000); // Calling the method to initialize the attributes
+        Mobile m = new Mobile("Samsung", 50000); // Creating an object of the Mobile class and passing arguments to the constructor
+    
         m.displayInfo(); // Displaying the information of the mobile
     }
 

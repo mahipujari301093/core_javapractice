@@ -24,8 +24,20 @@ public class Parent {
 
 ✅ Correct Statement
 
-A child class can access the properties and methods of one parent class by using the extends keyword.
-Using the extends keyword, the child class can access the properties and methods of the parent class through the child object.
+Inheritance is an OOP concept that allows a child class to inherit and reuse the properties and methods of a parent class using the extends keyword.
+
+Easy to remember:
+Parent Class → Has common properties and methods.
+Child Class → Reuses them using extends keyword.
+Access → Create the child class object, and it can use both its own and the inherited members.
+
+
+
+❓ Where did you use Inheritance in your Selenium Framework?
+
+In my Selenium framework, all the test classes extend the BaseTest class. The BaseTest class contains
+common code like browser initialization, opening the application URL, and closing the browser. By
+using inheritance, every test class can reuse this common code instead of writing it repeatedly.
 
 
  */

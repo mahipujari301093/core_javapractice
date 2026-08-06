@@ -9,23 +9,23 @@ public class ArithmeticExample {   // Unchecked exception
         int a = 10;
 		int b = 0;
 
-	//	int result = a/b;  // This will throw ArithmeticException: cannot divide by zero
-	//	System.out.println(result);
+		int result = a/b;  // This will throw ArithmeticException: cannot divide by zero
+		System.out.println(result);
 
 
 		// to handle the exception, we can use try-catch block
 
-			try     // define risky code in try block
+		//	try     // define risky code in try block
 			{
 
-				int result = a/b;
+			//	int result = a/b;
 				System.out.println("Result: " + result);
 			}
 
-			catch(ArithmeticException e)   // catch block will handle the exception
+		//	catch(ArithmeticException e)   // catch block will handle the exception
 			{
 
-				System.out.println("Exception Message: " + e.getMessage());
+				//System.out.println("Exception Message: " + e.getMessage());
 			}
 
 

@@ -52,6 +52,55 @@ Static methods belong to the class, not object.
 
 
 
+❓ Where did you use Method Overriding in your Framework?
+
+🎯 Easy Definition
+
+Where is Method Overriding?
+
+Method overriding means a child class provides its own implementation of a parent method using the same method name and the same parameters.
+
+🎯 Interview Point
+
+✅ WebDriver → Parent Interface
+
+✅ ChromeDriver → Child Class
+
+✅ ChromeDriver implements (provides implementation for) the methods declared in WebDriver.
+
+✅ At runtime, Java calls the ChromeDriver implementation.
+
+
+
+WebDriver (Interface)
+        │
+        │ Declares methods
+        ▼
+get()
+findElement()
+quit()
+
+        │
+        │ Implemented by
+        ▼
+ChromeDriver (Class)
+
+get()         ✅
+findElement() ✅
+quit()        ✅
+
+
+ChromeDriver implements the WebDriver interface and provides the implementation of its methods (get(), findElement(), quit(), etc.). 
+Even though the reference is WebDriver, Java executes the ChromeDriver implementation at runtime.
+
+
+
+
+
+
+
+
+
   */
 
 

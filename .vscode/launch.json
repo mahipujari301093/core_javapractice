@@ -3,13 +3,58 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Child",
+            "request": "launch",
+            "mainClass": "inheritance.Child",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
+            "name": "ArrayExample",
+            "request": "launch",
+            "mainClass": "exceptionhandling.ArrayExample",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
+            "name": "StringExample",
+            "request": "launch",
+            "mainClass": "stringpractice.StringExample",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
+            "name": "Local_Variable",
+            "request": "launch",
+            "mainClass": "Variable.Local_Variable",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListMethodsExample",
+            "request": "launch",
+            "mainClass": "collection.ArrayListMethodsExample",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
+            "name": "TreeSetExample",
+            "request": "launch",
+            "mainClass": "collection.TreeSetExample",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
             "name": "Practice",
             "request": "launch",
             "mainClass": "datatype.Practice",
             "projectName": "core_javapractice",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
-            "modulePaths": ["${workspaceFolder}/target/classes", "${workspaceFolder}/out/production/core_javapractice"]
+            "modulePaths": [
+                "${workspaceFolder}/target/classes",
+                "${workspaceFolder}/out/production/core_javapractice"
+            ]
         },
         {
             "name": "Launch Java Program",
@@ -18,7 +63,10 @@
             "mainClass": "${file}",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal",
-            "modulePaths": ["${workspaceFolder}/target/classes", "${workspaceFolder}/out/production/core_javapractice"]
+            "modulePaths": [
+                "${workspaceFolder}/target/classes",
+                "${workspaceFolder}/out/production/core_javapractice"
+            ]
         }
     ]
 }
