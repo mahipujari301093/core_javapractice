@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "String_Practice",
+            "request": "launch",
+            "mainClass": "datatype.String_Practice",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticExample",
+            "request": "launch",
+            "mainClass": "exceptionhandling.ArithmeticExample",
+            "projectName": "core_javapractice"
+        },
+        {
+            "type": "java",
             "name": "Child",
             "request": "launch",
             "mainClass": "inheritance.Child",

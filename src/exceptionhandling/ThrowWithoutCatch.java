@@ -28,7 +28,10 @@ public class ThrowWithoutCatch {
 
 /*
 
+
 Simple Definition of throw keyword:
+
+"throw is a Java keyword used to explicitly throw an exception or manually throw an exception
 
 Real-time Example: Insurance Application (Needs Assessment Page)
 

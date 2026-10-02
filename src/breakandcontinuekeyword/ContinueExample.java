@@ -3,70 +3,66 @@ package breakandcontinuekeyword;
 public class ContinueExample {
 	
 	
-	public static void main(String[]args)
-	{
-		
-		for(int i = 1; i<=5; i++)
-		{
-			
-			if(i==3)
-			{
-				
-				continue;  // Skip the current iteration when i becomes 3 but the loop continues to the next iteration.
-				           //  So it will print 1, 2, skip 3, and then print 4 and 5.
-			}
-			
-			System.out.println("i = " + i);
-			
-			
-			
-		}
-		
-		System.out.println("Loop ended.");
-			
-	}
-	
+	public static void main(String[]args){
+
+
+     for(int stop = 1; stop <= 5; stop++)
+{
+    if(stop == 4)
+    {
+        continue;
+    }
+
+    System.out.println("Bus stopped at Stop " + stop);
 }
 
 
+
+
+}
+	
+}
+
 /*
 
- 2️⃣ Continue Keyword
+Output
+Bus stopped at Stop 1
+Bus stopped at Stop 2
+Bus stopped at Stop 3
+Bus stopped at Stop 5
+What happens at Stop 4?
 
-Definition: The continue statement is used to skip the current iteration of a loop and continue with the next iteration.
- 
+Stop 1 → Stop
+Stop 2 → Stop
+Stop 3 → Stop
+Stop 4 → SKIP 🚌💨
+Stop 5 → Stop
 
- ✅ Explanation:
+When stop == 4:
 
-When i == 3, continue skips printing and moves to the next iteration.
+condition is true
+       ↓
+   continue
+       ↓
+skip Stop 4
+       ↓
+go to Stop 5
 
-The loop continues normally after skipping.
- 
- 
-💡 Quick Tip:
 
-break → exits the loop completely
 
-continue → skips current iteration, but loop continues 
- 
+🧠 Real-life meaning
 
-🔥 Important Understanding (Golden Point)
+continue = "Skip this stop and continue the journey."
 
-With break → loop ends
-With continue → loop jumps to next round
 
-continue = skip but stay inside loop
-break = come outside loop
+*/
 
-Real-Life Example
 
-Suppose you are checking attendance:
 
-If one student is absent → skip that student and continue checking others.
 
-That behavior is like continue.
 
- */
+
+
 
 
 

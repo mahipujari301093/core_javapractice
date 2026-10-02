@@ -1,45 +1,71 @@
 package breakandcontinuekeyword;
 
-public class BreakExample {
+public class BreakExample{
+
+
+
+public static void main(String[]args){
+
+
+
+for (int floor = 1; floor <= 5; floor++){
+
 	
+	System.out.println("Checking floor " + floor);
+
+    if(floor == 5)
+    {
+        System.out.println("Found my floor!");
+        break;
+    }
 	
-	public static void main(String[]args)
-	{
-		
-		for(int i = 1; i<=10; i++)
-		{
+        
 
-			if(i==5)
-			{
-				System.out.println("Number found. Stopping loop.");
-				break;   // This prints numbers from 1 to 4. When i becomes 5, the loop stops.
-
-			}
-
-			System.out.println("i = " + i);  // This will print numbers from 1 to 4, then exit when i is 5
-
-
-		}
-
-		  System.out.println("Execution continues after the loop terminates because break only exits the loop, not the entire program.");
-		
 	}
-	
-/*
- 
-✅ Fully Corrected Notes Version (Best for interview)
 
-1️⃣ Break Keyword
 
-Definition: The break statement is used to exit a loop immediately, even if the loop condition is still true.
-
-✅ Explanation:
-When i == 5, break executes and the loop terminates.
-The loop will not continue to the remaining iterations. but break only stops the loop or switch, not the entire program.
-
-💡 Quick Tip:
-break → exits the loop only not the entire program.
- */
-	
 
 }
+
+}
+
+/*
+
+Elevator example
+
+Imagine you are waiting for an elevator.
+
+You check floors one by one:
+
+Checking floor 1
+Checking floor 2
+Checking floor 3
+Checking floor 4
+Checking floor 5
+Found my floor!
+
+At floor 5, we use break.
+
+👉 Why?
+Because we found what we were looking for, so there is no need to continue checking floors 6, 7, 8, 9, 10.
+
+🧠 Remember
+
+break = "I found it → stop!" 🛑
+
+break is used when a condition is met, and we want to stop the loop immediately. 🛑
+
+
+*/
+
+
+
+	
+
+
+	
+	
+
+	
+
+

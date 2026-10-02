@@ -145,6 +145,34 @@ It is also called compile-time polymorphism because the compiler decides which m
 
 ❓ Where did you use Method Overloading in your Framework?
 
+public void select(String text) 
+{
+    Select dropdown = new Select(countryDropdown);
+    dropdown.selectByVisibleText(text);
+}
+
+public void select(int index) 
+{
+    Select dropdown = new Select(countryDropdown);
+    dropdown.selectByIndex(index);
+}
+
+public void select(String value) 
+{
+    Select dropdown = new Select(countryDropdown);
+    dropdown.selectByValue(value);
+}
+
+
+Now all three have the same method name select() and different parameter lists.
+
+Simple understanding:
+
+select("India")        → by visible text
+select(2)              → by index
+select("IN")           → by value
+
+👉 This is method overloading because the select() method has different parameters.
 
 
 

@@ -59,6 +59,8 @@ package collection;
 
 7. LinkedList is not synchronized (not thread-safe).
 
+LinkedList is efficient for insertion and deletion at the beginning and end, and it provides methods like addFirst(), addLast(), removeFirst(), and removeLast().
+
 
  */
 

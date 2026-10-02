@@ -40,7 +40,7 @@ public static void main(String[] args) - its a static method so Static methods a
 Constructors are not inherited.Overriding works only on inherited methods. ❌ Constructor overriding is NOT possible.
 
 3) Static Method
-Static methods belong to the class, not object.
+Static methods belong to the class only, not object so they cannot be overridden.
 
 
 | Condition   | Parent Method  | Child Method | Result   |

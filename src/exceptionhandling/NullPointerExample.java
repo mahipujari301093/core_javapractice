@@ -30,5 +30,15 @@ public class NullPointerExample {  // Unchecked(Runtime) exception
 	    }  
 	}
 
+/*
 
+NullPointerException:
+Occurs when we try to use a null object.
+
+Here, name has no value, so calling length() causes NullPointerException.
+
+
+
+
+*/
 

@@ -35,7 +35,17 @@ public class ArrayExample {   // Unchecked (Runtime) Exception.
 	}
 
 	
+	/*
 	
+	ArrayIndexOutOfBoundsException:
+Occurs when we try to access an array index that does not exist.
+
+Example: If an array has 3 elements, valid indexes are 0, 1, 2. If we access index 3, this exception occurs.
+	
+	
+	
+	
+	*/
 	
 	
 	

@@ -14,7 +14,7 @@ The developer writes the code to develop the application, but the end user only 
 The user doesn't know the internal code or logic. This hiding of implementation is called Abstraction.
 
 
-
+l
 🧠 Simple One-Line Understanding:
 
 👉 Abstraction means hiding complex internal implementation

@@ -7,10 +7,10 @@ public class ImplicitCastingSimple {
 	{
 		
 		int a = 5;
-		double b = a;  // Implicit casting: int to double (Java automatically converts the value from int → double.)
+		double b = a;  
 		
 		System.out.println("Integer value: " + a);
-        System.out.println("Double value: " + b);   // int automatically converted to double by Java
+        System.out.println("Double value: " + b);   
 
 	}
 
@@ -19,33 +19,14 @@ public class ImplicitCastingSimple {
 
 
 /*
-🔹 Explanation:
 
-a is an integer (int = 4 bytes).
+1️⃣ Implicit Casting — Widening
 
-When we assign a to b (double = 8 bytes),
-Java automatically converts int → double.
+Implicit casting is the conversion from a smaller data type to a larger data type.
+Java does it automatically, and there is no data loss because the larger data type can store the smaller data type's value.
 
-This automatic conversion is called implicit casting or widening conversion.
+int → double ✅
+double can store the int value 10, so no data is lost.
 
-💡 One-line definition:
-
-Implicit Type Casting → automatic conversion from lower to higher data type (no data loss).
-👉 Here, Java automatically converts int (4 bytes) → double (8 bytes).
-
-🔹 Final Definition:
-
-In implicit type casting, data conversion happens automatically (done by Java).
-
-In explicit type casting, data conversion happens manually (done by the programmer using a cast operator ( )).
-
-| Type Casting             | Conversion Type  | Who Does It         | Example        | Data Loss   |
-| ------------------------ | ---------------- | ------------------- | -------------- | ----------- |
-| **Implicit (Widening)**  | Smaller → Bigger | Java (Automatic)    | `int → double` | ❌ No        |
-| **Explicit (Narrowing)** | Bigger → Smaller | Programmer (Manual) | `double → int` | ⚠️ Possible |
-
-✅ Best Explanation Version
-we can assigned small value to bigger data type
-Java automatically converts int to double because double can store a larger range of values.
 
 */

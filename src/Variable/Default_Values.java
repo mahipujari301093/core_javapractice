@@ -25,6 +25,13 @@ public class Default_Values {
 	/*In Java, instance variables get default values automatically if not initialized:
 	 
 	 When we don't initialize values inside the variables then default values gets stored automatically 
+
+
+	    int a;        // 0
+        String s;     // null
+        double d;     // 0.0
+        boolean b;    // false
+        char c;       // \u0000 (null character) space 
 	 
 	 */
 
